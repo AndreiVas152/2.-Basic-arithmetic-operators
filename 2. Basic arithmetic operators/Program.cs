@@ -32,7 +32,7 @@ namespace _2.Basic_arithmetic_operators
             for (int i = 0; i < equation.Length; i++)
             {
                 try
-                {
+                {  
                     //Checks if the character is part of a number
 
                     if ("0123456789.,".Any(c => equation[i] == c))
